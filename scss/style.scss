@@ -9,6 +9,8 @@ body{
     font-weight: 400;
 }
 
+
+
 .size12-15{
     font-size: 12px;
     line-height: 15px;
@@ -755,3 +757,43 @@ body{
     margin-right: 150px;
 }
 
+@media (max-width:1440px)
+{
+
+.content{
+    width: auto;
+}
+  .header{
+    flex-direction: column;
+  }
+  .header-button-login{
+      margin-left: 45px;
+  }
+
+  .header-button-trial{
+      margin-left: 45px;
+  }
+
+  .promo{
+    flex-wrap:wrap;
+  }
+
+  .promo-text{
+      margin:128px 0 0 45px;
+  }
+
+  .promo-img{
+    width: 50%;
+    height: 50%;
+    margin: 50px 0 50px 45px;
+  }
+
+  .special-companies{
+    flex-wrap:wrap;
+    width: auto;
+  }
+
+  .metric{
+    flex-wrap:wrap;
+  }
+}
