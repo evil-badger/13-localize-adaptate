@@ -217,6 +217,7 @@ body{
 
 .promo{
     display: flex;
+    flex-wrap: wrap;
 }
 
 .promo-text{
@@ -272,6 +273,7 @@ body{
 .promo-img{
     margin-top: 151px;
     margin-bottom: 182px;
+    max-width:100%;
 }
 
 .special{
@@ -305,6 +307,7 @@ body{
 
 .logo-img{
     vertical-align:middle;
+    max-width:100%;
 }
 
 .metric{
@@ -393,6 +396,10 @@ body{
     margin-top: 33px;
 }
 
+.develop-img{
+    max-width:100%;
+}
+
 .start-link{
     display: inline-block;
     color: #000000;
@@ -437,6 +444,7 @@ body{
     display: block;
     margin-left: auto;
     margin-right: auto;
+    max-width:100%;
 }
 
 .possibilities-card-header{
@@ -572,7 +580,13 @@ body{
 
 .grade-rate{
     border-left:#000000 1px solid;
-    margin-top:79px;
+    margin-top:110px;
+    margin-right: 70px;
+    padding-left: 70px;
+}
+
+.capterra{
+    margin-top:110px;
 }
 
 .integrate{
@@ -599,6 +613,7 @@ body{
     margin-left: auto;
     margin-right: auto;
     margin-top: 25px;
+    max-width:100%;
 }
 
 .integrate-button{
@@ -680,6 +695,7 @@ body{
 
 .case-img{
     margin-top: 28px;
+    max-width:100%;
 }
 
 .case-icon{
@@ -792,6 +808,7 @@ body{
     .promo-img{
         max-width:100%;
         margin: 50px 0 50px 0;
+        
     }
 
     .special-companies{
@@ -861,6 +878,7 @@ body{
     }
 
     .develop-text-header{
+        width: auto;
         margin-top:50px;
     }
 
@@ -898,6 +916,7 @@ body{
 
     .ceo-img{
         margin-top:20px;
+        max-width:100%;
     }
     
     .ceo-text-article{
@@ -943,6 +962,112 @@ body{
 
 @media (max-width:768px)
 {
+
+    .special-header{
+        width: auto;
+    }
+
+    .metric-text-header{
+        width: auto;
+    }
+    
+    .metric-text-article{
+        width: auto;
+    }
+
+    .applications-text-header{
+        width: auto;
+    }
+    
+    .applications-text-article{
+        width: auto;
+    }
+
+    .qa-text-header{
+        width: auto;
+    }
+    
+    .qa-text-article{
+        width: auto;
+    }
+    
+    .promo{
+        flex-wrap:wrap;
+        margin-left: 20px;
+        }
+
+        .promo-text-header{
+            width: auto;
+            font-size: 60px;
+        }
+        
+        .promo-text-article{
+            width: auto;
+        }
+        
+    .metric{
+        margin-left: 20px;
+    }
+
+    .metric-img{
+        max-width:100%;
+    }
+
+    .applications{
+        margin-left: 20px;
+    }
+
+    .applications-img{
+        max-width:100%;
+    }
+
+    .qa{
+        margin-left: 20px;
+    }
+
+    .qa-img{
+        max-width:100%;
+    }
+
+    .develop-text-article{
+        width: auto;
+    }
+
+    .develop{
+        margin-left: 20px;
+    }
+
+    .target-audience{
+        margin-left: 20px;
+    }
+
+    .target-row{
+        flex-wrap: wrap;
+    }
+
+    .header-nav-list{
+        flex-direction: column;
+    }
+
+    .ceo-row{
+        margin-left: 20px;
+    }
+
+    .grade{
+        margin-left: 20px;
+    }
+
+    .grade-article{
+        margin: 50px 0 0 0;
+    }
+
+    .grade-rate{
+        margin-top: 50px;
+    }
+
+    .capterra{
+        margin: 50px 0 0 71px;
+    }
 
     .integrate-header{
         width: auto;
@@ -991,4 +1116,63 @@ body{
    .copyright{
        margin: 20px 0 20px 0;
    }
+}
+
+
+
+@media (max-width:360px)
+{
+    .promo-text-header{
+        width: auto;
+        font-size: 40px;
+    }
+
+    .metric-text-header{
+        width: auto;
+        font-size: 40px;
+    }
+    .promo-button-trial{
+        margin-bottom: 20px;
+    }
+
+    .special-header{
+        font-size: 40px;
+    }
+
+    .special-companies{
+        flex-direction: column;
+        gap:20px;
+    }
+
+    .possibilities-card-article{
+        width: auto;
+    }
+
+    .target-audience-header{
+        font-size: 35px;
+    }
+
+    .target-img{
+        max-width: 90%;
+    }
+
+    .pie{
+        margin-left:20px;
+    }
+
+    .grade-rate{
+        padding-left: 45px;
+    }
+
+    .capterra{
+        margin-left: 45px;
+    }
+
+    .integrate-header{
+        font-size: 45px;
+    }
+
+    .trial-header{
+        font-size: 40px;
+    }
 }
