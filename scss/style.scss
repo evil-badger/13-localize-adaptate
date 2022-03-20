@@ -940,3 +940,55 @@ body{
         justify-content: space-between;
     }
 }
+
+@media (max-width:768px)
+{
+
+    .integrate-header{
+        width: auto;
+    }
+
+    .integrate-article{
+        width: auto;
+    }
+
+    .trial-header{
+        width: auto;
+        font-size: 58px;
+    }
+
+    .trial-article{
+        width: auto;
+    }
+
+    .additional{
+        padding-top: 30px;
+    }
+
+    .case{
+        padding-bottom: 0;
+        margin-left:20px;
+    }
+
+    .header-nav-list{
+        flex-wrap: wrap;
+    }
+
+    .footer{
+        flex-wrap: wrap;
+        margin-left:20px;
+    }
+
+   .logo-link-footer{
+       margin-left: 0;
+   }
+
+   .footer-article{
+       margin: 20px 0 0 0;
+       padding-bottom: 0;
+   }
+
+   .copyright{
+       margin: 20px 0 20px 0;
+   }
+}
