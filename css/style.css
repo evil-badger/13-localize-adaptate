@@ -299,6 +299,10 @@ body {
   padding-bottom: 150px;
 }
 
+.logo-img {
+  vertical-align: middle;
+}
+
 .metric {
   display: flex;
   padding-top: 90px;
@@ -764,34 +768,170 @@ body {
   }
 
   .header-button-login {
-    margin-left: 45px;
+    margin-left: 50px;
   }
 
   .header-button-trial {
-    margin-left: 45px;
+    margin-left: 50px;
   }
 
   .promo {
     flex-wrap: wrap;
+    margin-left: 50px;
   }
 
   .promo-text {
-    margin: 128px 0 0 45px;
+    margin: 50px 0 0 0;
   }
 
   .promo-img {
-    width: 50%;
-    height: 50%;
-    margin: 50px 0 50px 45px;
+    max-width: 100%;
+    margin: 50px 0 50px 0;
   }
 
   .special-companies {
     flex-wrap: wrap;
     width: auto;
+    justify-content: space-around;
+    gap: 10px;
+  }
+
+  .link {
+    text-align: center;
+  }
+
+  .present {
+    padding-bottom: 50px;
   }
 
   .metric {
     flex-wrap: wrap;
+    margin-left: 50px;
+  }
+
+  .metric-text {
+    margin-bottom: 50px;
+  }
+
+  .metric-text-header {
+    margin: 0;
+  }
+
+  .applications {
+    flex-wrap: wrap;
+    padding-top: 90px;
+    margin-left: 50px;
+  }
+
+  .applications-text {
+    margin-left: 0;
+  }
+
+  .applications-text-header {
+    margin-top: 90px;
+  }
+
+  .qa {
+    flex-wrap: wrap;
+    padding-top: 90px;
+    margin-left: 50px;
+  }
+
+  .qa-text {
+    margin-bottom: 50px;
+  }
+
+  .qa-text-header {
+    margin-top: 0px;
+  }
+
+  .develop {
+    flex-wrap: wrap;
+    padding-top: 50px;
+    margin-left: 50px;
+  }
+
+  .develop-text {
+    margin-left: 0px;
+  }
+
+  .develop-text-header {
+    margin-top: 50px;
+  }
+
+  .possibilities {
+    padding-bottom: 50px;
+  }
+
+  .possibilities-header {
+    width: auto;
+  }
+
+  .possibilities-row {
+    width: auto;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+  }
+
+  .target-audience {
+    height: auto;
+    padding-bottom: 50px;
+    margin-left: 50px;
+  }
+
+  .target-audience-header {
+    padding-top: 50px;
+    margin-left: 0;
+  }
+
+  .ceo-row {
+    width: auto;
+    flex-wrap: wrap;
+    margin-left: 50px;
+  }
+
+  .ceo-img {
+    margin-top: 20px;
+  }
+
+  .ceo-text-article {
+    width: auto;
+  }
+
+  .target-row {
+    margin: 0;
+    gap: 20px;
+  }
+
+  .target-card {
+    margin-right: 10px;
+  }
+
+  .grade {
+    flex-wrap: wrap;
+    margin-left: 50px;
+  }
+
+  .grade-article {
+    margin-top: 50px;
+  }
+
+  .integrate-img {
+    max-width: 100%;
+  }
+
+  .case-studies {
+    margin: 0 200px 50px 0;
+  }
+
+  .case {
+    margin-left: 50px;
+    margin-right: 50px;
+    width: auto;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: space-between;
   }
 }
 
